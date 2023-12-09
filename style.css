@@ -478,6 +478,8 @@ body {
 
 @media(max-width: 500px) {
   #sm-banner .banner-box {
+    align-items: stretch !important;
+    padding: 1rem;
     height: 50vh;
   }
 
