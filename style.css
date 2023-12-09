@@ -175,7 +175,7 @@ body {
 
 #hero h2 {
   max-width: 300px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 #hero h3 {
@@ -408,7 +408,7 @@ body {
 
 @media(max-width: 450px) {
   #banner h3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   #banner h2 {
@@ -507,57 +507,6 @@ body {
 
   #sm-banner button {
     font-size: 1rem;
-  }
-}
-
-#banner3 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0 5rem;
-}
-
-#banner3 .banner-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  text-align: center;
-  background-image: url('img/b7.jpg');
-  min-width: 31%;
-  height: 30vh;
-  background-size: cover;
-  background-position: center;
-  padding: 2rem;
-  margin: 1rem;
-  margin-bottom: 3rem;
-}
-
-#banner3 .banner-box2 {
-  background-image: url('img/b4.jpg');
-}
-
-#banner3 .banner-box3 {
-  background-image: url('img/b4.jpg');
-}
-
-#banner3 h2 {
-  color: #f1f1f1;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-#banner3 h3 {
-  color: #ec544e;
-  font-weight: 800;
-  font-size: 1.25rem;
-}
-
-@media(max-width: 500px) {
-  #banner3 .banner-box {
-    margin: 1rem 0;
-    padding: .5rem !important;
   }
 }
 
@@ -778,4 +727,3 @@ footer .container-footer .contact .info li a {
       gap: 20px;
   }
 }
-
