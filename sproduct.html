@@ -1,25 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-shop.css">
+        <link rel="stylesheet" href="style-sproduct.css"></link>
+        <link rel="stylesheet" href="style-footer.css">
     </head>
 
     <body>
+        <section id="header">
+            <a id="logo" href="#"><img src="img/logo.svg" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">В начало</a></li>
+                    <li><a class="active" href="shop.html">Магазин</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a id="entrance" href="registration.html">Войти</a></li>
+                    <li id="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
 
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/shoes1.png" width="100%" id="MainImg" alt="">
+                
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/products/shoes1.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/shoes1_1.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/shoes1_2.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/shoes1_3.png" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
 
-        <script>
-            // script for image change on click
-        </script>
+            <div class="single-pro-details">
+                <p>Кроссовки / Спортивный стиль</p>
+                <h3>Nike Velocity V2016</h3>
+                <h2>12881.08₽</h2>
+                <select>
+                    <option>Выберите размер</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                    <option>44</option>
+                    <option>45</option>
+                    <option>46</option>
+                </select>
+                <input min="1" max="9" pattern="[1-9]"type="number" value="1">
+                <button>Добавить в корзину</button>
+                <h3>Информация о продукте</h3>
+                <span>Nike Velocity V2016 - легкие, стильные и удобные кроссовки с улучшенной 
+                амортизацией, вентилируемым верхом и прочной подошвой для отличного сцепления. 
+                Идеальны для спорта и повседневной активности.</span>
+            </div>
+        </section>
 
+        <section id="product1" class="section-p1">
+            <h2>Новинки сезона</h2>
+            <p>Новые модели обуви уже ждут вас</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/shoes10.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>Terrain Trek '22</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>17051.33₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/shoes11.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>AgileFit '16</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>14324.77₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/shoes12.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>Quantum Shift '20</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>10077.97₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+        </section>
 
+        <footer>
+            <div class="container-footer">
+                <div class="sec aboutus">
+                    <h2>Медиа</h2>
+                    <p>Присоединяйтесь к нашему сообществу в социальных сетях, чтобы быть в курсе последних новостей, акций и обновлений.</p>
+                    <ul class="sci"> 
+                        <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Навигация</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Магазин</h2>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Children</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Boots</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Обратная связь</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <p>119602, Россия, г. Москва, Мичуринский пр. 12к2</p>
+                        <li> 
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
+                            <p><a href="tel:+74996008330">+7 (499) 999-99-99</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <p><a href="mailto:shoeworld@email.com">shoeworld@email.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p>© И. А. Зимин, 2023. Все права защищены.</p>
+        </div>
+        
+        <script src="script-sproduct.js"></script>
         <script src="script.js"></script>
     </body>
-
 </html>

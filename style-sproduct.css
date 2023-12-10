@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#prodetails {
+    display: flex;
+    margin-top: 1.25rem;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 3rem;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 2rem;
+}
+
+#prodetails .single-pro-details p {
+    font-size: large;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+#prodetails .single-pro-details h3 {
+    padding: 2.5rem 0 1.25rem 0;
+}
+
+#prodetails .single-pro-details h2 {
+   font-size: 1.6rem;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: .4rem .8rem;
+    margin-bottom: .8rem; 
+}
+
+#prodetails .single-pro-details input {
+    width: 3.2rem;
+    height: 3rem;
+    padding-left: .8rem;
+    font-size: 1rem;
+    margin-right: .8rem;
+}
+
+#prodetails .single-pro-details button {
+    background: #088178;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 10%;
+    border-radius: .25rem;
+    cursor: pointer;
+    border: none;
+    transition: .35s ease;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 1.5rem;
+}
+
+@media(max-width: 470px) {
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+}

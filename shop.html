@@ -1,19 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-shop.css">
+        <link rel="stylesheet" href="style-footer.css">
     </head>
 
     <body>
+        <section id="header">
+            <a id="logo" href="#"><img src="img/logo.svg" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">В начало</a></li>
+                    <li><a class="active" href="shop.html">Магазин</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a id="entrance" href="registration.html">Войти</a></li>
+                    <li id="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+        
+        <section id="product1" class="section-p1">
+            <h2>Мир обуви</h2>
+            <p>Новые модели обуви уже ждут вас</p>
+            <div class="pro-container">
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes1.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p> Velocity V2016</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>12881.08₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes2.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>SkyRush 2018</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>7517.11₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes3.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>AeroMax 2017</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>23411.47₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes4.png" alt="">
+                    <div class="des">
+                        <span> Puma</span>
+                        <p>EchoForce 2021</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>15674.29₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes5.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>Terrain Trek 2022</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>20745.73₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes6.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>AeroMax 2023</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>16041.98₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes7.png" alt="">
+                    <div class="des">
+                        <span> Adidas </span>
+                        <p>SpeedWave 2020</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>23644.27₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes8.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>AeroSurge 2021</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>22071.71₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes9.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>PulseFlow 2020</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>11408.84₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes10.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>Terrain Trek '22</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>17051.33₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes11.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>AgileFit '16</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>14324.77₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes12.png" alt="">
+                    <div class="des">
+                        <span> Nike </span>
+                        <p>Quantum Shift '20</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>10077.97₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes13.png" alt="">
+                    <div class="des">
+                        <span> Adidas </span>
+                        <p>Zenith Stride '23</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>19106.78₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes14.png" alt="">
+                    <div class="des">
+                        <span> Adidas </span>
+                        <p>SwiftStrike Pro '22</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>19540.41₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes15.png" alt="">
+                    <div class="des">
+                        <span> New Balance </span>
+                        <p>BlazeRush '17</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>11708.07₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes16.jpg" alt="">
+                    <div class="des">
+                        <span> Convers </span>
+                        <p>SwiftStrike Pro '22</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>6025.62₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes17.webp" alt="">
+                    <div class="des">
+                        <span>New Balance</span>
+                        <p>Infinity Sprint '19</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>17764.63₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro" onclick="window.location.href='sproduct.html'">
+                    <img src="img/products/shoes18.webp" alt="">
+                    <div class="des">
+                        <span>New Balance</span>
+                        <p>EnergyStrike '20</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>10952.95₽</h3>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="pagination">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+        </section>
+
+        <footer>
+            <div class="container-footer">
+                <div class="sec aboutus">
+                    <h2>Медиа</h2>
+                    <p>Присоединяйтесь к нашему сообществу в социальных сетях, чтобы быть в курсе последних новостей, акций и обновлений.</p>
+                    <ul class="sci"> 
+                        <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Навигация</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Магазин</h2>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Children</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Boots</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Обратная связь</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <p>119602, Россия, г. Москва, Мичуринский пр. 12к2</p>
+                        <li> 
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
+                            <p><a href="tel:+74996008330">+7 (499) 999-99-99</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <p><a href="mailto:shoeworld@email.com">shoeworld@email.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p>© И. А. Зимин, 2023. Все права защищены.</p>
+        </div>
 
         <script src="script.js"></script>
     </body>
-
 </html>
