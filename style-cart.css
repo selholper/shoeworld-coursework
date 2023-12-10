@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+    width: 4.5rem;
+}
+
+#cart table td:nth-child(1) {
+    width: 4rem;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 8rem;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 8rem;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) {
+    width: 4rem;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(8) {
+    width: 6rem;
+    text-align: center;
+}
+
+#cart table td:nth-child(6),
+#cart table td:nth-child(7) {
+    width: 4rem;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(5) input {
+    width: 4.5rem;
+    padding: .6rem .3rem .6rem .9rem;
+}
+
+#cart table thead {
+    border: .1rem solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 1.1rem 0;
+}
+
+#cart table tbody tr td{
+    padding-top: 1rem;
+}
+
+#cart table tbody tr td i {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#cart table tbody td,
+#cart table tbody td p{
+    font-size: .8rem;
+} 
+
+#decQuantity,
+#incQuantity {
+    font-size: .8rem !important;
+}

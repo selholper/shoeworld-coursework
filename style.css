@@ -128,7 +128,8 @@ body {
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after {
+#navbar li a:hover::after 
+{
   content: "";
   width: 35%;
   height: .125rem;

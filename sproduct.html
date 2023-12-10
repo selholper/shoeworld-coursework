@@ -25,12 +25,12 @@
                     <li><a href="blog.html">Новости</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                     <li><a id="entrance" href="registration.html">Войти</a></li>
-                    <li id="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                     <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
                 </ul>
             </div>
             <div id="mobile">
-                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
                 <i id="bar" class="fas fa-outdent"></i>
             </div>
         </section>
@@ -56,9 +56,9 @@
             </div>
 
             <div class="single-pro-details">
-                <p>Кроссовки / Спортивный стиль</p>
-                <h3>Nike Velocity V2016</h3>
-                <h2>12881.08₽</h2>
+                <p id="shoesType"></p>
+                <h3 id="shoesName"></h3>
+                <h2 id="shoesCost"></h2>
                 <select>
                     <option>Выберите размер</option>
                     <option>37</option>
@@ -75,9 +75,7 @@
                 <input min="1" max="9" pattern="[1-9]"type="number" value="1">
                 <button>Добавить в корзину</button>
                 <h3>Информация о продукте</h3>
-                <span>Nike Velocity V2016 - легкие, стильные и удобные кроссовки с улучшенной 
-                амортизацией, вентилируемым верхом и прочной подошвой для отличного сцепления. 
-                Идеальны для спорта и повседневной активности.</span>
+                <span id="shoesDesc"></span>
             </div>
         </section>
 
@@ -85,7 +83,7 @@
             <h2>Новинки сезона</h2>
             <p>Новые модели обуви уже ждут вас</p>
             <div class="pro-container">
-                <div class="pro" onclick="window.location.href='sproduct.html'">
+                <div class="pro" onclick="redirectToProduct('10')">
                     <img src="img/products/shoes10.png" alt="">
                     <div class="des">
                         <span> Nike </span>
@@ -100,7 +98,7 @@
                         <h3>17051.33₽</h3>
                     </div>
                 </div>
-                <div class="pro" onclick="window.location.href='sproduct.html'">
+                <div class="pro" onclick="redirectToProduct('11')">
                     <img src="img/products/shoes11.png" alt="">
                     <div class="des">
                         <span> Nike </span>
@@ -115,7 +113,7 @@
                         <h3>14324.77₽</h3>
                     </div>
                 </div>
-                <div class="pro" onclick="window.location.href='sproduct.html'">
+                <div class="pro" onclick="redirectToProduct('12')">
                     <img src="img/products/shoes12.png" alt="">
                     <div class="des">
                         <span> Nike </span>
