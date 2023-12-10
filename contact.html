@@ -1,21 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-contact.css">
+        <link rel="stylesheet" href="style-pagination.css">
+        <link rel="stylesheet" href="style-footer.css">
     </head>
 
     <body>
+        <section id="header">
+            <a id="logo" href="#"><img src="img/logo.svg" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">В начало</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="blog.html">Новости</a></li>
+                    <li><a class="active" href="contact.html">Контакты</a></li>
+                    <li><a id="entrance" href="registration.html">Войти</a></li>
+                    <li id="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
 
+        <section id="page-header">
+            <h1>Our blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </section>
+
+        <section id="contact-details" class="section-p1">
+            <div class="details"> 
+                <span>GET ON TOUCH</span>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <h3>Head office</h3>
+                <div>
+                    <li>
+                        <i class="fal fa-map"></i>
+                        <p>119602, Россия, г. Москва, Мичуринский пр. 12к2</p>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <p>shoeworld@email.com</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+7 (987) 654-32-10</p>
+                        <p>+7 (499) 999-99-99</p>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i>
+                        <p>08:00–19:00 Пн-Пт</p>
+                    </li>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac42dc496a2184a4b0cd077b5d885ba102cb1bb90bdb52605ba1cc8030c4953c7&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-footer">
+                <div class="sec aboutus">
+                    <h2>Медиа</h2>
+                    <p>Присоединяйтесь к нашему сообществу в социальных сетях, чтобы быть в курсе последних новостей, акций и обновлений.</p>
+                    <ul class="sci"> 
+                        <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Навигация</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Магазин</h2>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Children</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Boots</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Обратная связь</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <p>119602, Россия, г. Москва, Мичуринский пр. 12к2</p>
+                        <li> 
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
+                            <p><a href="tel:+74996008330">+7 (499) 999-99-99</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <p><a href="mailto:shoeworld@email.com">shoeworld@email.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p>© И. А. Зимин, 2023. Все права защищены.</p>
+        </div>
 
         <script src="script.js"></script>
     </body>
-
 </html>
