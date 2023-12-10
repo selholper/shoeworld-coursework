@@ -19,3 +19,166 @@
 #page-header p {
     color: #f1f1f1;
 }
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span {
+    font-size: .75rem;
+}
+
+#contact-details .details h2 {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    padding: 1.25rem 0;
+}
+
+#contact-details .details h3 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: .6rem 0;
+}
+
+#contact-details .details li i {
+    font-size: .9rem;
+    padding-right: 1.4rem;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: .9rem;
+}
+
+.phones-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-details .map {
+    width: 55%;
+    height: 25rem;   
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 5rem;
+    border: .1rem solid #e1e1e1;
+}
+
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form span {
+    font-size: .9rem;
+}
+
+#form-details form h2 {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    padding: 1.25rem 0;
+}
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: .75rem .9rem;
+    outline: none;
+    margin-bottom: 1.25rem;
+    border: .1rem solid #e1e1e1; 
+}
+
+#form-details form button {
+    font-size: 1rem;
+    background-color: #088178;
+    color: #f1f1f1;
+}
+
+#form-details .people {
+    margin-left: 2rem;
+}
+
+#form-details .people div {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1.5rem;
+}
+
+#form-details .people div img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+#form-details .people div p {
+    margin: 0;
+    font-size: .8rem;
+    line-height: 1.5rem;   
+}
+
+#name-span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
+
+@media(max-width: 1000px) {
+    #form-details {
+        padding: 2.5rem;
+    }
+
+    #form-details form {
+        width: 50%;
+    }
+}
+
+@media(max-width: 600px) {
+    #contact-details {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    #contact-details .details {
+        width: 100%;
+    }
+
+    #contact-details .map {
+        width: 100%; 
+    }
+
+    #form-details {
+        margin: .6rem;
+        padding: 4rem .6rem;
+        flex-wrap: wrap;
+    }
+
+    #form-details form {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+}
