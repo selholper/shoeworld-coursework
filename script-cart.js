@@ -74,6 +74,10 @@ function checkCoupon() {
 }
 
 function reloadPage() {
+    if (document.getElementById('totalAmount').textContent == '0₽') {
+        alert("Вы ничего не заказали");
+        return;
+    }
     location.reload();
 }
 
