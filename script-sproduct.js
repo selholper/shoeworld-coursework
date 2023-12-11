@@ -40,7 +40,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes1_1.png";
         smallImg[2].src = "img/products/shoes1_2.png";
         smallImg[3].src = "img/products/shoes1_3.png";
-        shoesType.textContent = "Кроссовки / Спортивный стиль";
+        shoesType.textContent = "Мужчинам / Кроссовки / Спортивный стиль";
         shoesName.textContent = "Nike Velocity V2016";
         shoesCost.textContent = "12881.08₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -54,7 +54,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes2.png";
         smallImg[2].src = "img/products/shoes2.png";
         smallImg[3].src = "img/products/shoes2.png";
-        shoesType.textContent = "Ботинки / Спортивный стиль";
+        shoesType.textContent = "Мужчинам / Ботинки / Спортивный стиль";
         shoesName.textContent = "Nike SkyRush 2018";
         shoesCost.textContent = "7517.11₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -68,7 +68,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes3.png";
         smallImg[2].src = "img/products/shoes3.png";
         smallImg[3].src = "img/products/shoes3.png";
-        shoesType.textContent = "Кроссовки / Спортивный стиль";
+        shoesType.textContent = "Мужчинам / Кроссовки / Спортивный стиль";
         shoesName.textContent = "Nike AeroMax 2017";
         shoesCost.textContent = "23411.47₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -82,7 +82,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes4.png";
         smallImg[2].src = "img/products/shoes4.png";
         smallImg[3].src = "img/products/shoes4.png";
-        shoesType.textContent = "Ботинки / Спортивный стиль";
+        shoesType.textContent = "Женщинам / Ботинки / Спортивный стиль";
         shoesName.textContent = "Puma EchoForce 2021";
         shoesCost.textContent = "15674.29₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -96,7 +96,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes5.png";
         smallImg[2].src = "img/products/shoes5.png";
         smallImg[3].src = "img/products/shoes5.png";
-        shoesType.textContent = "Полуботинки / Спортивный стиль";
+        shoesType.textContent = "Женщинам / Полуботинки / Спортивный стиль";
         shoesName.textContent = "Nike Terrain Trek 2022";
         shoesCost.textContent = "20745.73₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -110,7 +110,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes6.png";
         smallImg[2].src = "img/products/shoes6.png";
         smallImg[3].src = "img/products/shoes6.png";
-        shoesType.textContent = "Ботинки / Классика";
+        shoesType.textContent = "Женщинам / Ботинки / Классика";
         shoesName.textContent = "Nike AeroMax 2023";
         shoesCost.textContent = "16041.98₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -124,7 +124,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes7.png";
         smallImg[2].src = "img/products/shoes7.png";
         smallImg[3].src = "img/products/shoes7.png";
-        shoesType.textContent = "Ботинки / Повседневный стиль";
+        shoesType.textContent = "Детям / Ботинки / Повседневный стиль";
         shoesName.textContent = "Adidas SpeedWave 2020";
         shoesCost.textContent = "23644.27₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -138,7 +138,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes8.png";
         smallImg[2].src = "img/products/shoes8.png";
         smallImg[3].src = "img/products/shoes8.png";
-        shoesType.textContent = "Кроссовки / Повседневный стиль";
+        shoesType.textContent = "Детам / Кроссовки / Повседневный стиль";
         shoesName.textContent = "Nike AeroSurge 2021";
         shoesCost.textContent = "22071.71₽";
         shoesDesc.textContent = shoesName.textContent +
@@ -152,7 +152,7 @@ switch (productId) {
         smallImg[1].src = "img/products/shoes9.png";
         smallImg[2].src = "img/products/shoes9.png";
         smallImg[3].src = "img/products/shoes9.png";
-        shoesType.textContent = "Шлёпки / Повседневный стиль";
+        shoesType.textContent = "Детям / Шлёпки / Повседневный стиль";
         shoesName.textContent = "Nike PulseFlow 2020";
         shoesCost.textContent = "11408.84₽";
         shoesDesc.textContent = shoesName.textContent +
