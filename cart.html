@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>Корзина</title>
         <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -50,38 +50,87 @@
                     </tr>
                 </thead>
                 <thbody>
-                    <tr>
+                    <tr class="item-row">
                         <td><i id="remove-entry" class="far fa-times-circle"></i></td>
                         <td><img src="img/products/shoes1.png"></td>
                         <td>Nike Velocity V2016</td>
                         <td>12881.08₽</td>
-                        <td><p id="quantity">1</p></td>
+                        <td><p id="quantity">0</p></td>
                         <td><i id="decQuantity" class="fa-solid fa-minus" onclick="decreaseQuantity(this.parent.parent)"></i></td>
                         <td><i id="incQuantity" class="fa-solid fa-plus" onclick="increaseQuantity(this.parent.parent)"></i></td>
-                        <td>12881.08₽</td>
+                        <td>0₽</td>
                     </tr>
-                    <tr>
+                    <tr class="item-row">
                         <td><i id="remove-entry" class="far fa-times-circle"></i></td>
                         <td><img src="img/products/shoes2.png"></td>
                         <td>Nike SkyRush 2018</td>
                         <td id="cost">7517.11₽</td>
-                        <td><p id="quantity">3</p></td>
+                        <td><p id="quantity">0</p></td>
                         <td><i id="decQuantity" class="fa-solid fa-minus" onclick="decreaseQuantity(this.parent.parent)"></i></td>
                         <td><i id="incQuantity" class="fa-solid fa-plus" onclick="increaseQuantity(this.parent.parent)"></i></td>
-                        <td>22551.33₽</td>
+                        <td>0₽</td>
                     </tr>
-                    <tr>
+                    <tr class="item-row">
                         <td><i id="remove-entry" class="far fa-times-circle"></i></td>
                         <td><img src="img/products/shoes3.png"></td>
                         <td>Nike AeroMax 2017</td>
                         <td>23411.47₽</td>
-                        <td><p id="quantity">1</p></td>
+                        <td><p id="quantity">0</p></td>
                         <td><i id="decQuantity" class="fa-solid fa-minus" onclick="decreaseQuantity(this.parent.parent)"></i></td>
                         <td><i id="incQuantity" class="fa-solid fa-plus" onclick="increaseQuantity(this.parent.parent)"></i></td>
-                        <td>23411.47₽</td>
+                        <td>0₽</td>
+                    </tr>
+                    <tr class="item-row">
+                        <td><i id="remove-entry" class="far fa-times-circle"></i></td>
+                        <td><img src="img/products/shoes4.png"></td>
+                        <td>Puma EchoForce 2021</td>
+                        <td>15674.29₽</td>
+                        <td><p id="quantity">0</p></td>
+                        <td><i id="decQuantity" class="fa-solid fa-minus" onclick="decreaseQuantity(this.parent.parent)"></i></td>
+                        <td><i id="incQuantity" class="fa-solid fa-plus" onclick="increaseQuantity(this.parent.parent)"></i></td>
+                        <td>0₽</td>
+                    </tr>
+                    <tr class="item-row">
+                        <td><i id="remove-entry" class="far fa-times-circle"></i></td>
+                        <td><img src="img/products/shoes5.png"></td>
+                        <td>Nike Terrain Trek 2022</td>
+                        <td>20745.73₽</td>
+                        <td><p id="quantity">0</p></td>
+                        <td><i id="decQuantity" class="fa-solid fa-minus" onclick="decreaseQuantity(this.parent.parent)"></i></td>
+                        <td><i id="incQuantity" class="fa-solid fa-plus" onclick="increaseQuantity(this.parent.parent)"></i></td>
+                        <td>0₽</td>
                     </tr>
                 </thbody>
             </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Применить купон</h3>
+                <div>
+                    <input id="couponInput" type="text" placeholder="Введите купон" required>
+                    <button class="normal" onclick="checkCoupon()">Применить</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Итого</h3>
+                <table>
+                    <tr>
+                        <td>Стоимость товаров</td>
+                        <td id="subtotalAmount">0₽</td>
+                    </tr>
+                    <tr>
+                        <td>Доставка</td>
+                        <td>0₽</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Итоговая стоимость</strong></td>
+                        <td><strong id="totalAmount">0₽</strong></td>
+                    </tr>
+                </table>
+                <button class="normal" onclick="reloadPage()">Оформить заказ</button>
+            </div>
+            
         </section>
 
         <footer>

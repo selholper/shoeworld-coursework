@@ -289,3 +289,12 @@ switch (productId) {
     default:
         break;
 }
+
+document.getElementById('addToCart').addEventListener('click', function() {
+    let selectedSize = document.getElementById('sizeSelect').value;
+    if (!isNaN(selectedSize) && selectedSize !== "Выберите размер") {
+        window.location.href = 'cart.html';
+    } else {
+        alert('Пожалуйста, выберите размер');
+    }
+});

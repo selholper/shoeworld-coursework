@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+#cart {
+    overflow-x: auto;
+}
+
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -17,7 +21,7 @@
 }
 
 #cart table td:nth-child(2) {
-    width: 8rem;
+    width: 10rem;
     text-align: center;
 }
 
@@ -27,7 +31,7 @@
 }
 
 #cart table td:nth-child(5) {
-    width: 4rem;
+    width: 5rem;
     text-align: center;
 }
 
@@ -39,7 +43,7 @@
 
 #cart table td:nth-child(6),
 #cart table td:nth-child(7) {
-    width: 4rem;
+    width: 5rem;
     text-align: center;
 }
 
@@ -68,15 +72,100 @@
 
 #cart table tbody tr td i {
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #cart table tbody td,
 #cart table tbody td p{
     font-size: .8rem;
-} 
+}
 
-#decQuantity,
+.item-row {
+    color: rgba(200, 200, 200, 0.5);
+}
+
 #incQuantity {
-    font-size: .8rem !important;
+    color: black;
+}
+
+#decQuantity {
+    color: black;
+}
+
+.item-row td:nth-child(2) {
+    opacity: 0.2;
+}
+
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 1rem;
+}
+
+#coupon input {
+    padding: .625rem 1.25rem;
+    outline: none;
+    width: 60%;
+    margin-right: .7rem;
+    border: .1rem solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button {
+    margin: 0;
+    font-size: 1rem;
+    padding: .75rem 1.25rem;
+    background-color: #088178;
+    color: #f1f1f1;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 4rem;
+    border: .1rem solid #e2e9e1;
+    padding: 2rem; 
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: .1rem solid #e2e9e1;
+    padding: .6rem;
+    font-size: .8rem;
+}
+
+@media(max-width: 850px) {
+    #cart-add {
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #coupon input {
+        width: 50%;
+    }
+
+
+    #subtotal {
+        width: 100%;
+        padding: 1rem; 
+    }
 }
