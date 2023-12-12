@@ -88,7 +88,7 @@
     z-index: -1;
 }
 
-@media(max-width: 470px) {
+@media(max-width: 750px) {
     #blog {
         padding: 6rem 1.25rem 0 1.25rem;
     }
